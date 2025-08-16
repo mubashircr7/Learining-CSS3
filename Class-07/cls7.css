@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: lightskyblue;
+    color: darkorchid;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(rgb(205, 100, 100), rgb(56, 56, 224));
+    background-attachment: fixed;
+}
+
+div p{
+    margin-top: 20px;
+    background-color: red;
+    color: wheat;
+}
+div > p{
+ background-color: lawngreen;
+ color: red;
+}
+div + p{
+    margin-top: 20px;
+   background-color: darkblue;
+   color: white;
+}
+div ~ p{
+    background-color: white;
+    color: black;
+}
