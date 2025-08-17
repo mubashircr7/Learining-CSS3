@@ -1,0 +1,78 @@
+ input{
+   padding: 10px;
+   text-align: center;
+   font-weight: bold;
+ }
+ input:hover{
+    border: 2px solid red;
+ }
+input:focus{
+    background-color: lightsteelblue;
+    text-align: left;
+}
+ 
+ .one{
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 5px;
+ }
+ .one:hover{
+    color: red;
+    text-decoration: underline;
+ }
+ .two{
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 5px;
+ }
+ .two:hover{
+    color: gold;
+    text-decoration: underline;
+ }
+
+ table{
+    border-collapse: collapse;
+ }
+ tr,td,th{
+    border: solid;
+    padding: 10px 20px;
+    
+ }
+
+ tr:nth-child(even){
+    background-color: red;
+ }
+ 
+ p::before{
+    content: 'E';
+    color: gold;
+    font-size: 3rem;
+ }
+ p::after{
+    content: '>';
+    color: red;
+    font-weight: bold;
+    font-size: 3rem;
+ }
+ p::selection{
+    background-color: green;
+ }
+ p:hover{
+    background-color: rebeccapurple;
+ }
+ p:first-child{
+    background-color: darkblue;
+ }
+ p:last-child{
+    background-color: rgb(142, 142, 210);
+ }
+ p:nth-child(2n+1){
+ background-color: darkkhaki;
+ }
+
+ li:first-of-type{
+    background-color: lawngreen;
+ }
+ li:last-of-type{
+    background-color: lawngreen;
+ }
