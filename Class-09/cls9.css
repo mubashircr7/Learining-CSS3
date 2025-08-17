@@ -1,0 +1,29 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+ }
+ body{
+    background-color: darkseagreen;
+ }
+
+ .container{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: darkblue;
+    width: 200px;
+    padding: 5px;
+    margin: 5%;
+    border: 5px solid black;
+ }
+ .more{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: gold;
+    font-weight: bolder;
+    width: 200px;
+    padding: 5px;
+    margin: 5%;
+    border: 5px solid black;
+ }
