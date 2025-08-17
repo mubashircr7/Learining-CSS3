@@ -1,0 +1,51 @@
+  /* specificity Calculator css */
+  /* a= Number Of ID */
+  /* b= Number of Class, pheduo Class, attributes */
+  /* c= Number of element, Pshedu element*/
+
+  /* Universal selector  (*)  Specificity = 0 */
+  /* inline css Specificity = 1000 */
+  /* !important specificity = 10000 */
+  /* Count the number of IDs  (a) specificity = 100 */
+  /* Count the number of class, pshedu class, attributes  specificity (b) =10 */
+  /* Count the number of element, pshedu element (C) specificity = 1 */
+
+
+
+
+
+
+
+
+
+
+  /* a=0, b=0, C=1 ==> 001 */
+  h1{
+    background-color: brown !important;
+  }
+  
+  /* a=0, b=0, C=1 ==> 001 */
+  h1{
+    background-color: rgb(17, 189, 71); /* top theke bottom er pirity beshi */
+  }
+
+  /* a=0, b=1, c=0 ==>010 */
+  .heading-cl{
+   background-color: aqua;
+  }
+
+  /* a= 1 , b=0, c=0 ==>100 */
+  #heading-i{
+     background-color: red;
+  }
+
+  /* a=0, b=1, c=1 ==>011 */ 
+  h1.heading-cl{
+    background-color: darkblue;
+  }
+
+  /* a=1, b=0, c=1 ==>101 */
+  h1#heading-i{
+    background-color: darkcyan;
+  }
+
