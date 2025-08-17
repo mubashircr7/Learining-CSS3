@@ -1,0 +1,38 @@
+ .div1{
+    background-color: brown;
+    height: 300px;
+    width: 50%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+  .div2{
+    background-color: rgb(77, 165, 42);
+    height: 300px;
+    width: 50%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+ p{
+    color: red;
+    opacity: 0.5;
+ }
+ .img-style{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.3;
+    transition: 2s;
+
+ }
+ .img-style:hover{
+    opacity: 1;
+    transform: rotate(360deg);
+    transition-timing-function: linear;
+
+ }
