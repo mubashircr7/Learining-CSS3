@@ -1,0 +1,10 @@
+ .gradient{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to right, green,red,gold,orange,blue,salmon,aqua);
+ }
+ .radial-gradient{
+    height: 200px;
+    width: 100%;
+    background-image: radial-gradient( circle, red, orange, blue, yellow,red);
+ }
