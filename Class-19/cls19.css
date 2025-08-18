@@ -1,0 +1,41 @@
+ .container{
+    background-color: saddlebrown;
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+    overflow: auto;
+ }
+
+ .tooltip {
+    margin: 0 auto;
+    color: darkblue;
+    background-color: red;
+    width: 90px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family: cursive;
+    position: relative;
+ }
+ .tooltip-text{
+    visibility: hidden;
+    color: red;
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: -80px;
+    left: -90px;
+    z-index: 1;
+    width: 300px;
+ }
+  a{
+    text-decoration: none;
+ }
+ .tooltip:hover .tooltip-text{
+    visibility: visible;
+    transition: 1s;
+    transform: scale(1.1);
+ }
