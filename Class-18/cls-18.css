@@ -1,0 +1,22 @@
+ #sec1{
+    color: red;
+    background-color: khaki;
+    float: left;
+    padding: 10px;
+ }
+ #sec2{
+    color: green;
+    background-color: lightsteelblue;
+    float: right;
+    padding: 10px;
+ }
+ #sec3{
+    color: rgb(73, 11, 189);
+    background-color: dodgerblue;
+    text-align: center;
+ }
+
+ #clear{
+   clear: both;
+ }
+ 
