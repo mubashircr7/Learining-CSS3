@@ -1,0 +1,27 @@
+     .course-list{
+        background-color: indigo;
+        padding: 20px;
+        font-weight: bold;
+        font-family: cursive;
+        
+     }
+     .course-list ul{
+        list-style-type: none;
+      /*  list-style-position: inside;
+        list-style-image: url(tick.png);  list-style property er sahajje desgin*/
+     }
+     .course-list li{
+        margin: 10px;
+        font-size: 2rem;
+        color: white;
+     }
+     .course-list li::before{
+        content: '\f058';
+        font-family: 'Font Awesome 7 free';
+        font-weight: bold;
+
+        display: inline-block;
+        margin: 10px 5px ;
+        font-size: 2.21rem;
+        color: teal;
+     }
