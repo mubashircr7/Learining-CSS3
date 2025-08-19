@@ -1,0 +1,30 @@
+   table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+   }
+   th,td{
+    border: solid;
+    padding: 10px 15px;
+    font-family:sans-serif;
+    font-weight: normal;
+   }
+   th{
+    background-color: darkslategray;
+    color: white;
+    border: solid black;
+    font-family: cursive;
+    font-weight: bolder;
+   }
+   tr:nth-child(odd){
+    background-color: rebeccapurple;
+   }
+   tr:nth-child(even){
+    background-color: khaki;
+   }
+
+   tr,td:hover{
+    background-color: lightsteelblue;
+    font-weight: bold;
+   }
