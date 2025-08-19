@@ -1,0 +1,55 @@
+ 
+ 
+ :root{
+    --primary-color:red;
+    --secondary-color: rgb(21, 193, 58);
+ }
+
+ 
+ .div1{
+    background: var(--primary-color);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    border-radius: 10px;
+    z-index: 1;
+ }
+ .div2{
+    background: var(--secondary-color);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    z-index: -1;
+   /* background: var(--primary-color); */
+ }
+ .div1:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 1;
+    background: var(--primary-color, indigo);
+ }
+  .div2:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 2;
+    background: var(--secondary-color, gold);
+ }
+
+
+ @media screen and (max-width: 992px) {
+   :root {
+      --primary-color: rgb(216, 16, 183);
+      --secondary-color: indigo;
+   }
+ }
+ @media screen and (max-width: 600px) {
+   :root {
+      --primary-color: rgb(15, 162, 152);
+      --secondary-color: black;
+   }
+ }
