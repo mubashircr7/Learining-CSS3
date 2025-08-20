@@ -1,0 +1,107 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1{
+    background-color: darkviolet;
+    color: white;
+    text-align: center;
+  }
+  div h2{
+    display: inline-block;
+    background-color: lawngreen;
+    margin-top: 20px;
+  }
+  div p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: red;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  .common{
+    background-color: dodgerblue;
+    width: 300px;
+    font-family: cursive;
+  }
+/* transfrom property */
+  .div1{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+ .div1:hover{
+    transition: 1s;
+    transform: translate(10px,20px);
+ }
+   /*transform rotate */
+ .div2{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+ .div2:hover{
+       transition: 2s;
+       transform: rotate(360deg);
+}
+  /*transfrom skew */
+ .div3{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+ }
+ .div3:hover{
+    transition: 2s;
+    transform: skew(-360deg);
+ }
+ /* transform Scale */
+  .div4{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .div4:hover{
+    transition: 1s;
+    transform: Scale(1.1);
+  }
+    
+
+  .main{
+    text-align: center;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+
+    transition: width .2s linear , transform 2s;
+  }
+  .main:hover{
+    width: 200px;
+    transform: rotate(360deg)
+  }
+ .main h3{
+    font-family: cursive;
+    font-weight: bold;
+    transition: font-size 2s;
+ }
+ .main h3:hover{
+    font-size: 1.7rem;
+ }
+
+
+
