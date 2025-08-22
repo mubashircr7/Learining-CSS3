@@ -1,0 +1,35 @@
+  .flex-container{
+    background-color: orangered;
+    height: 300px;
+
+
+    display: flex;
+    /*flex-wrap: wrap-reverse; */
+    /*flex-wrap: wrap; */
+    /*flex-direction: row-reverse; */
+    /*flex-direction: column-reverse;*/
+    /* flex-flow: wrap column; ==> flex flow sahajje duita aitem ke akotre lekha jay --flex-warp flex-direction*/
+    flex-flow: wrap row;
+    /* justify-content:space-between; */
+    /* justify-content:space-around*/
+    /* justify-content: space-evenly; */
+    /* justify-content: center */
+    justify-content: center;
+    /*align-items: flex-start; ==> align item a container a height used korte hoy*/
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: center; /* Abar item gulo ke kon jaygay rakhbo ai khetreu align item: bebohar hoy */
+    /* sob gulo item ke center a ante ==>
+      display: flex;
+      justify-content: center;
+      align-items: center; */
+    
+   
+}
+  .flex-container > div{
+    font-size: 2rem;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightseagreen;
+   /* width: 100px; */
+  }
