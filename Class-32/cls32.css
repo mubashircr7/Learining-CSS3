@@ -1,0 +1,131 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-areas:  
+    'h'
+    'm'
+    'm'
+    'm'
+    'f';
+    font-weight: bold;
+    font-family: cursive;
+}
+header{
+    display: grid;
+    grid-area: h;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 20px 0;
+    text-align: center;
+    border: solid;
+}
+main{
+  display: grid;
+  grid-area: m;
+  color: white;
+  border: solid;
+  background-color: crimson;
+}
+footer{
+  display: grid;
+  grid-area: f;
+  background-color: sandybrown;
+  color: rgb(255, 252, 246);
+  grid-template-areas:  
+  'n1 n2';
+}
+article{
+  display: grid;
+  grid-template-areas:  
+  's1 a1'
+  's2 a2'
+  's3 a3';
+}
+section{
+  background-color: darkorange;
+  border: solid;
+  padding: 20px;
+  text-align: center;
+}
+aside{
+  border: solid;
+  text-align: center;
+  padding: 20px;
+}
+
+#nav1{
+  border: solid;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+
+}
+#nav2{
+  border: solid;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+
+}
+
+
+
+#sec1{grid-area: s1;}
+#sec2{grid-area: s2;}
+#sec3{grid-area: s3;}
+#aside1{grid-area: a1;}
+#aside2{grid-area: a2;}
+#aside3{grid-area: a3;}
+#nav1{grid-area: n1;}
+#nav2{grid-area: n2;}
+
+@media screen and (max-width:600px) {
+  article{
+ 
+  grid-template-areas:  
+ 's1'
+ 's2'
+ 's3'
+ 'a1'
+ 'a2'
+ 'a3'
+}
+footer{
+  grid-template-areas:  
+  'n1'
+  'n2';
+}
+}
+
+/* .grid-container{
+        display: grid;
+       /* grid-template-columns:  auto auto auto auto; */
+       /* grid-template-columns: 25% 25% 25% 25%; */
+       /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+       /* grid-template-columns: repeat(4, 25%); */
+       /* grid-template-columns: 2fr 1fr 1fr 1fr; */
+       /*  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+       
+      /* .grid-container > div{
+        border: 1px solid;
+        text-align: center;
+        padding: 10px;
+       }  */
+
+/*
+   <!--
+   <div class="grid-container">
+     <div class="div1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+    <div class="div2"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+    <div class="div3"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+    <div class="div4"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+    <div class="div5"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+    <div class="div6"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+    <div class="div7"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+    <div class="div8"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, nobis?</p></div>
+   </div>  --> */
