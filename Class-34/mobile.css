@@ -1,0 +1,41 @@
+/*1. Extra small device (Phone, 600px & down) */ 
+    body{
+        background-color: red;
+        color: white;
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2. Extra small device ( portrait tablate & large phone, 600px & up) */
+ @media screen and (min-width:600px) {  } 
+
+
+/*3. Medium device & (landscape tablate 768px & up) */
+ @media screen and (min-width:768px) {  }
+
+
+/*4. Large device (laptops/ desktop, 992px & up */
+ @media screen and (min-width:992px) {  }
+
+
+/*5. Extra Larges device (larges laptop/desktop, 1200px & up) */
+ @media screen and (min-width:1200px) {  } 
