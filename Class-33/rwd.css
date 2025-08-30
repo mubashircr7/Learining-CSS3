@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+      width: 25%;
+      background-color:  #f1f1f1;
+      height: 100%;
+      position: fixed;
+      overflow: auto;
+  }
+  .navbar a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+    color: #111;
+  }
+  .navbar a:hover:not(.active){
+   background-color: #333;
+   color: white;
+  }
+  
+  .more{
+    margin-left: 25%;
+    padding: 20px;
+    height: 1000px;
+  }
+  .active{
+    color: white;
+    background-color: #4CAF50;;
+  }
+
+  @media screen and (max-width:900px) {
+    .navbar {
+      width: 100%;
+      height: auto;
+      position: relative; 
+    }
+    .navbar a{
+        float: left;
+        padding: 20px;
+    }
+    .more{
+        margin-left: 0;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .navbar a{
+        text-align: center;
+        float: none;
+    }
+
+  }
